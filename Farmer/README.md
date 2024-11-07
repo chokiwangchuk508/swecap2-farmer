@@ -57,11 +57,14 @@ while True:
 The provided code snippet begins by clearing the current state and moving the character south. It then enters an infinite loop that iterates over a range defined by the world's size. Within this loop, the character moves north and checks if harvesting is possible using the can_harvest() function. If harvesting is allowed, it executes the harvest() function. After harvesting, the code checks the number of hay items in the inventory; if there are fewer than 600, it plants grass, otherwise, it plants bushes. Finally, the character moves east before the loop repeats. This structure allows for continuous exploration and resource management, enabling the character to harvest, plant, and navigate the environment effectively. However, the code contains a syntax error in the for loop declaration, where rangelget_world_size() should likely be corrected to range(get_world_size()).
 **Demo:**
 Video Demo:
-![](./Screenshot%202024-11-06%20at%209.12.02 PM.png)
+![](./2.png)
 **Notes**
 - Using the code above I was able to get enough hay to unlock the tile
 - These features were unlocked too: variables and functions.
-.
+- New Tools/Abilities: Potential to unlock better tools for efficient harvesting.
+- Map Expansion: Progress may open new areas or advanced resources.
+- Resource Management: Balance between Grass and Bush ensures sustainability.
+- Game Progression: Helps advance levels or stages in the game.
 .
 .
 .
@@ -74,6 +77,7 @@ Video Demo:
 # Challenges and Learnings
 ## Challenges
 In "The Farmer Was Replaced," players encounter several challenges primarily related to programming and automation. One of the main hurdles is the learning curve associated with grasping programming concepts, which can be particularly daunting for those without prior coding experience. As players progress, tasks become increasingly complex, requiring more sophisticated coding solutions, and balancing multiple farming activities simultaneously can be overwhelming. Efficient resource management is also crucial, as mismanagement can lead to inefficiencies and hinder progress. Players often face the challenge of debugging their code, which can be time-consuming and frustrating, especially when trying to identify and fix issues. Additionally, the need for continuous optimization puts pressure on players to refine their strategies repeatedly, which can be mentally taxing. These challenges contribute to the game's engaging yet demanding nature, making it a rewarding experience for those who enjoy problem-solving and coding.
+
 ## Learnings
 Note down what different algorithms and methods of programming you learnt
 - In "The Farmer Was Replaced," I've learnt various algorithms and programming methods that enhance their problem-solving skills. Key concepts include looping, as players use loops to automate repetitive tasks like harvesting and planting. Conditional statements are crucial for making decisions based on inventory levels, such as choosing what to plant based on the quantity of hay. Players also explore function creation to encapsulate specific tasks, promoting code reusability and organization. Pathfinding algorithms can be applied to navigate the drone efficiently through the farm, while resource management techniques help optimize the use of materials and time. Overall, the game serves as a practical introduction to basic programming concepts and algorithms, fostering logical thinking and computational skills.
